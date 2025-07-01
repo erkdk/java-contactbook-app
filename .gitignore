@@ -22,12 +22,23 @@ Thumbs.db
 *.swp
 *~
 
-# === Tomcat runtime files ===
+# === Tomcat filesystem & runtime (exclude all runtime artifacts) ===
 tomcat/logs/
 tomcat/temp/
 tomcat/work/
+
+# === Deployed artifacts ===
 tomcat/webapps/*.war
 tomcat/webapps/contactbook/
+
+# === Default Tomcat manager app and docs===
+tomcat/webapps/manager/
+tomcat/docs/
+
+# === Tomcat licensing and readmes ===
+tomcat/LICENSE
+tomcat/NOTICE
+tomcat/README*
 
 # === Env files ===
 .env
