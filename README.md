@@ -70,10 +70,6 @@ mvn clean package
 ### To deploy the app
 Copy the .war file into your tomcat webapps/ directory.
 
-#### Develop the app and run command(to build the WAR file) :
-```bash
-mvn clean package
-```
 #### Install Tomcat
 ```bash
 wget https://downloads.apache.org/tomcat/tomcat-11/v11.0.9/bin/apache-tomcat-11.0.9.tar.gz
