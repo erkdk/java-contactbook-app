@@ -12,18 +12,19 @@ A simple Java web application for managing contacts (CRUD) built using:
 |--------------|----------------------------------|
 | Java         | Core language                    |
 | JSP/Servlets | Web layer                        |
-| MySQL        | Database backend                 |
+| MySQL        | Database                |
 | Maven        | Dependency and build management |
 | Tomcat       | Local server for deployment      |
 ---
 
 ## 📁 Project Structure
+This is for local development.
 ```
 java-contactbook-app/
 ├── contactbook/ # Java Maven project (main logic)
-├── src/ 
 ├── tomcat/ # Local Tomcat setup for deployment
 ```
+
 ```
 cd contactbook/src
  vagrant@vagrant:~/java-contactbook-app/contactbook/src$
@@ -43,13 +44,12 @@ cd contactbook/src
         │               ├── EditContactServlet.java
         │               ├── ListContactsServlet.java
         │               └── UpdateContactServlet.java
-        ├── resources
         └── webapp
             ├── edit-contact.jsp
             ├── index.jsp
             ├── list-contacts.jsp
             └── WEB-INF
-
+             └── web.xml
  ```
 ---
 
